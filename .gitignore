@@ -25,7 +25,7 @@ detection_env/
 # --- YOLO / model weights ---
 # These are large binary files that should be downloaded separately,
 # not committed to the repo (yolov8n.pt, yolov8m-face.pt, etc.)
-*.pt
+
 *.pth
 *.onnx
 *.engine
