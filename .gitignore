@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Conda / venv environments ---
+# (environment lives outside the repo per this project's setup,
+# but ignore these in case one is ever created inside the folder)
+env/
+venv/
+.venv/
+detection_env/
+*.conda/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- YOLO / model weights ---
+# These are large binary files that should be downloaded separately,
+# not committed to the repo (yolov8n.pt, yolov8m-face.pt, etc.)
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+runs/
+
+# --- Downloaded/generated images (optional - remove if you want to track demo images) ---
+# Uncomment the next lines if you don't want to commit large demo/original images
+# *.jpg
+# *.jpeg
+# *.png
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs / misc ---
+*.log
+.cache/
